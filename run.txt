@@ -1,0 +1,6 @@
+docker build -t my .
+docker run -d -p 8080:80 my
+
+npm init -y
+npm install selenium -webdriver
+node test.js
