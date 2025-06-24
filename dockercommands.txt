@@ -1,0 +1,11 @@
+docker ps
+docker pull hello-world
+docker pull hello-world:latest
+docker run hello-world
+
+docker pull ubuntu 
+docker run ubuntu
+mkdir "name"
+cd "name"
+open new powershell
+docker ps -a
