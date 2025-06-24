@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 30px;
+      background: #f9f9f9;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #f0f0f0;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+    }
+    .total {
+      text-align: right;
+      font-size: 18px;
+    }
+    .checkout {
+      padding: 10px 20px;
+      background: green;
+      color: #fff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🛒 Your Cart</h2>
+
+  <table>
+    <tr>
+      <th>Image</th>
+      <th>Product</th>
+      <th>Qty</th>
+      <th>Price (₹)</th>
+      <th>Subtotal (₹)</th>
+    </tr>
+
+    <tr>
+      <td>
+        <img src="https://th.bing.com/th/id/OIP.608kpIxTz9H4RyDpKCimXQHaHa?w=198" alt="T-Shirt">
+      </td>
+      <td>T-Shirt</td>
+      <td>2</td>
+      <td>500</td>
+      <td>1000</td>
+    </tr>
+
+    <tr>
+      <td>
+        <img src="https://th.bing.com/th/id/OIP.QIwNUvL9i4mGpSKPnsCMZAHaD5?w=202" alt="Jeans">
+      </td>
+      <td>Jeans</td>
+      <td>1</td>
+      <td>1200</td>
+      <td>1200</td>
+    </tr>
+
+    <tr>
+      <td>
+        <img src="https://th.bing.com/th/id/OIP.ctBhIbsDI9VgtPZ3ydnhUQHaFA?w=292" alt="Cap">
+      </td>
+      <td>Cap</td>
+      <td>3</td>
+      <td>200</td>
+      <td>600</td>
+    </tr>
+  </table>
+
+  <div class="total">
+    <strong>Total: ₹2800</strong>
+  </div>
+
+  <a href="#" class="checkout">Checkout</a>
+
+</body>
+</html>
